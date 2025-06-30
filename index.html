@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Centro de Control - PXAU</title><link id="favicon" rel="icon" type="image/png" href="assets/icons8-power-48.png">
+  <link rel="stylesheet" href="style.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+</head>
+<body>
+  <header class="hero">
+  <div class="hero-content">
+    <h1>Centro de Poder ProgramyXAU</h1>
+    <p>Explora tutoriales, FAQ detallado, recursos y documentación sobre PXAU.</p>
+    <button onclick="scrollToContent(event)">Ver Más</button>
+  </div><div class="gato-track" id="gatoTrack"></div>
+
+</header>
+
+  <main id="contenido">
+    <section class="info-section">
+      <h2>¿Qué es esta plataforma?</h2>
+      <p>Es un espacio para estudiantes y usuarios donde puedes encontrar documentación, videos y ejemplos de las funcionalidades más comunes de nuestra web.</p>
+      <img draggable="false" src="assets/quees.png" alt="Ejemplo funcionalidad" />
+    </section>
+
+    <section class="video-section">
+      <h2>Guía en Video</h2>
+      <video controls>
+        <source src="assets/ejemplo.mp4" type="video/mp4" />
+        Tu navegador no soporta el video HTML5.
+      </video>
+    </section>
+
+    <section class="faq-section">
+  <h2>Preguntas Frecuentes</h2>
+  <div class="faq scroll-right">
+    <button class="faq-question">¿Cómo colaboro con otros usuarios?</button>
+    <div class="faq-answer"><p>Cuando entres a los detalles de un proyecto, podrás ver el contacto del autor si él lo ha compartido.
+Pero si no aparece ningún dato de contacto, ¡no te preocupes! Puedes dejarle un comentario en su proyecto diciendo que te interesa colaborar. Asegúrate de incluir también tu información (como tu correo o redes) para que pueda responderte y trabajar juntos.</p></div>
+  </div>
+    <div class="faq scroll-left">
+    <button class="faq-question">¿Qué tipo de proyectos puedo subir?</button>
+    <div class="faq-answer">  <p style="font-size: 1rem; line-height: 1.6;">
+    ¡Casi cualquiera! Puedes subir proyectos académicos, personales, técnicos o artísticos.  
+    Por ejemplo:
+  </p>
+  <ul style="list-style-type: disc; margin-left: 1.5rem; font-size: 1rem; line-height: 1.6; margin-top: 0.5rem;">
+    <li>Páginas web o apps que hayas creado</li>
+    <li>Investigaciones escolares o universitarias</li>
+    <li>Diseños gráficos, ilustraciones o arte digital</li>
+    <li>Inventos o prototipos que desarrollaste</li>
+    <li>Campañas de marketing o contenido publicitario</li>
+    <li>¡Y todo lo que quieras compartir con el mundo!</li>
+  </ul>
+  <p style=" margin-top: 1rem; font-size: 1rem;">
+    No hay límites mientras sea un proyecto original y hecho con dedicación 😊
+  </p></div>
+  </div>
+  <div class="faq scroll-right">
+  <button class="faq-question">¿Puedo subir archivos directamente?</button>
+  <div class="faq-answer">
+    <p>Sí es posible, pero lo más recomendable es usar servicios externos como Google Drive, Mediafire o similares. De esta forma, solo necesitas copiar el enlace de descarga en el formulario del proyecto. Esto no solo mejora el rendimiento de la plataforma, sino que también te da mayor control sobre tus archivos en caso quieras editarlos, moverlos o eliminarlos en el futuro.</p>
+  </div>
+</div>
+
+<div class="faq scroll-left">
+  <button class="faq-question">¿Qué pasa si quiero actualizar mi proyecto?</button>
+  <div class="faq-answer">
+    <p>Si necesitas hacer cambios o mejoras a tu proyecto, evita subirlo varias veces con diferentes versiones. Lo más ordenado es eliminar la publicación anterior y luego subir la versión nueva. Así mantienes tu espacio limpio y evitas confusiones entre quienes visitan tu perfil o buscan un proyecto específico.</p>
+  </div>
+</div>
+
+<div class="faq scroll-right">
+  <button class="faq-question">¿Qué tipo de comentarios están permitidos?</button>
+  <div class="faq-answer">
+    <p>Los comentarios deben ser siempre respetuosos, útiles y constructivos. Si alguien deja mensajes ofensivos, fuera de lugar o simplemente hace spam, estos serán eliminados por el equipo de moderación. Además, ese tipo de conductas puede llevar a sanciones o suspensión de la cuenta, ya que buscamos mantener un ambiente seguro y agradable para todos.</p>
+  </div>
+</div>
+
+<div class="faq scroll-left">
+  <button class="faq-question">¿Puedo proteger mi proyecto contra plagio?</button>
+  <div class="faq-answer">
+    <p>Claro que sí. Si prefieres proteger tus ideas, puedes subir solo una parte del proyecto: por ejemplo, una captura de pantalla, una explicación breve o una demo limitada. De esta manera, muestras lo necesario para generar interés sin exponer todo tu trabajo completo al público general.</p>
+  </div>
+</div>
+
+<div class="faq scroll-right">
+  <button class="faq-question">¿Es obligatorio poner una miniatura?</button>
+  <div class="faq-answer">
+    <p>Sí, es obligatorio. La miniatura es la primera impresión visual que otros tendrán de tu proyecto. Elige una imagen clara y llamativa que represente bien tu trabajo y motive a los demás a hacer clic. Es como la portada de un libro: una buena imagen puede marcar la diferencia.</p>
+  </div>
+</div>
+
+<div class="faq scroll-left">
+  <button class="faq-question">¿Puedo colaborar con otros usuarios?</button>
+  <div class="faq-answer">
+    <p>¡Por supuesto! Si quieres colaborar, asegúrate de que tu perfil incluya algún medio de contacto (como un correo o red social). También puedes comentar directamente en los proyectos que te interesen, explicando que deseas colaborar y dejando tus datos. Así el autor podrá responderte y coordinar directamente contigo.</p>
+  </div>
+</div>
+
+<div class="faq scroll-right">
+  <button class="faq-question">¿Qué pasa si alguien usa mi proyecto sin permiso?</button>
+  <div class="faq-answer">
+    <p>Si descubres que alguien está utilizando tu trabajo sin tu autorización, puedes reportarlo desde la misma página del proyecto en cuestión. El equipo de moderación revisará el caso lo antes posible y tomará las medidas necesarias para proteger tus derechos como autor.</p>
+  </div>
+</div>
+
+<div class="faq scroll-left">
+  <button class="faq-question">¿Puedo compartir proyectos hechos en grupo?</button>
+  <div class="faq-answer">
+    <p>Claro que sí, puedes subir proyectos grupales. Solo asegúrate de contar con el permiso del resto de tu equipo antes de publicarlo. Además, es muy importante que menciones a todos los integrantes o les des el crédito correspondiente en la descripción del proyecto.</p>
+  </div>
+</div>
+
+<div class="faq scroll-right">
+  <button class="faq-question">¿Hay límite de proyectos que puedo subir?</button>
+  <div class="faq-answer">
+    <p>No existe un límite estricto de proyectos, puedes publicar tantos como quieras. Sin embargo, se recomienda mantener tu perfil ordenado y evitar subir muchas versiones repetidas o proyectos incompletos. En este espacio valoramos más la calidad y el esfuerzo que la cantidad.</p>
+  </div>
+</div>
+
+<div class="faq scroll-left">
+  <button class="faq-question">¿Qué pasa si describo mal mi proyecto o no selecciono categoría?</button>
+  <div class="faq-answer">
+    <p>No te preocupes, puedes eliminar el proyecto incorrecto y volverlo a publicar con los datos corregidos. Asegúrate siempre de revisar tu título, descripción y categoría antes de enviar, ya que eso facilita que otros encuentren tu proyecto en las búsquedas.</p>
+  </div>
+</div>
+
+<div class="faq scroll-right">
+  <button class="faq-question">¿Mis proyectos son públicos?</button>
+  <div class="faq-answer">
+    <p>Sí, todos los proyectos que subas serán visibles para cualquier persona que visite la plataforma. Si prefieres mantener algo de privacidad, puedes mostrar solo una parte del contenido o usar enlaces protegidos con contraseña para los archivos más delicados.</p>
+  </div>
+</div>
+
+</section>
+
+    <section class="info-section funciones-section">
+  <div class="scroll-top">
+    <h2>Funciones Principales de ProgramyX AU</h2>
+    <p style="margin-bottom: 1rem;">
+      <strong>ProgramyX AU</strong> es una plataforma pensada para estudiantes, creadores y equipos de trabajo que desean compartir, explorar y mejorar proyectos académicos o personales. Aquí puedes colaborar, inspirarte y formar parte de una comunidad activa. Estas son sus funciones principales:
+    </p>
+
+    <ul style="list-style: disc; margin-left: 1.5rem; margin-bottom: 2rem;">
+      <li><strong>Publicación de Proyectos:</strong> Crea una ficha visual para tu proyecto con título, descripción, miniatura, tecnologías usadas y archivos adjuntos o enlaces externos.</li>
+      <li><strong>Exploración por Categorías:</strong> Navega entre proyectos organizados por temas o tecnologías, filtrando fácilmente lo que necesitas.</li>
+      <li><strong>Sistema de Comentarios:</strong> Interactúa con otros usuarios dejando comentarios, sugerencias o preguntas en sus proyectos.</li>
+      <li><strong>Colaboración entre Usuarios:</strong> Si los autores lo permiten, puedes contactarlos directamente o dejar una propuesta para trabajar juntos.</li>
+      <li><strong>Gestión de Proyectos Propios:</strong> Modifica, elimina o actualiza tus publicaciones desde tu panel personal.</li>
+      <li><strong>Moderación Comunitaria:</strong> Reporta contenido inapropiado, duplicado o sospechoso de plagio para ayudar a mantener la calidad de la plataforma.</li>
+      <li><strong>Soporte para Archivos Externos:</strong> Comparte recursos pesados mediante enlaces a servicios como Google Drive o Dropbox.</li>
+    </ul>
+  </div>
+
+  <hr style="margin: 2rem 0; border: none; border-top: 1px solid #ccc;">
+
+  <div class="scroll-bottom">
+    <h2>Cosas que NO se deben hacer</h2>
+    <p style="margin-bottom: 1rem;">Para mantener la plataforma segura, útil y ordenada para todos los usuarios, es importante seguir ciertas reglas de convivencia. Aquí tienes una lista clara de lo que está prohibido o desaconsejado:</p>
+
+    <ul style="list-style: disc; margin-left: 1.5rem; margin-bottom: 1.5rem;">
+      <li><strong>Publicar proyectos repetidos</strong> sin eliminar versiones anteriores. Esto genera confusión y desorganiza el catálogo.</li>
+      <li><strong>Subir contenido sin descripción clara</strong>, sin categoría o con títulos genéricos como “mi proyecto” o “tarea final”.</li>
+      <li><strong>Compartir contenido ofensivo o sin relación académica</strong>. Está prohibido subir material discriminatorio, político o inadecuado.</li>
+      <li><strong>Comentar con sarcasmo, burla o agresividad</strong>. Se espera una actitud colaborativa y respetuosa en todos los espacios.</li>
+      <li><strong>Utilizar miniaturas engañosas o clickbait</strong> para atraer visitas. El contenido debe ser coherente con la imagen que se muestra.</li>
+      <li><strong>Subir archivos directamente muy pesados</strong> sin compresión ni enlaces externos. Esto puede ralentizar la plataforma para todos.</li>
+      <li><strong>No respetar el trabajo de otros usuarios</strong>: copiar, descargar o modificar proyectos sin permiso puede llevar a una suspensión de tu cuenta.</li>
+      <li><strong>Incluir datos personales delicados en tus publicaciones</strong>. Evita poner DNI, direcciones, contraseñas o accesos sin protección.</li>
+    </ul>
+
+    <p>
+      Usa ProgramyX AU con creatividad y responsabilidad. Cada usuario hace que esta comunidad sea mejor 🌟
+    </p>
+  </div>
+</section>
+
+<section class="info-section vision-section">
+  <div class="vision-text scroll-left">
+    <h2>Visión</h2>
+    <p>Queremos ser ese espacio ideal en internet donde estudiantes y creadores puedan subir sus proyectos y obtener visibilidad, descubrir lo que hacen otros y juntarse para crear cosas geniales.
+La idea es formar una comunidad chida, donde todos se apoyen, compartan lo que saben y crezcan juntos, siempre con respeto, creatividad y ganas de aprender cada día más.</p>
+  </div>
+  <div class="vision-image scroll-right">
+    <img draggable="false" src="assets/ejemplo.png" alt="Ilustración visión futura" />
+  </div>
+</section>
+<section class="info-section">
+  <h2>Objetivos Futuros</h2>
+  <ul>
+    <li><strong>Perfiles personalizados:</strong> Permitir que cada usuario edite su perfil con foto, biografía, redes sociales y proyectos destacados.</li><br>
+    <li><strong>Herramientas potenciadas con IA:</strong> Incluir recomendaciones inteligentes, análisis automático de proyectos y ayudas para redacción o codificación.</li><br>
+    <li><strong>Mejoras en el servidor:</strong> Optimizar velocidad, capacidad de carga y disponibilidad global de la plataforma para una experiencia más fluida.</li><br>
+    <li><strong>Aumento de potencia de carga:</strong> Permitir soporte para archivos más grandes y manejo eficiente de múltiples recursos en simultáneo.</li><br>
+    <li><strong>Diseño web profesional:</strong> Reprogramar el sitio con la ayuda de desarrolladores expertos, asegurando escalabilidad, seguridad y diseño moderno.</li><br>
+    <li><strong>Funcionalidades colaborativas:</strong> Agregar opciones de coautoría, edición compartida y grupos de trabajo dentro de la plataforma.</li><br>
+  </ul>
+
+  <p>
+    Nuestro objetivo final es convertir a ProgramyX AU en la mejor red de proyectos estudiantiles hecha por estudiantes y para estudiantes ;D
+  </p>
+</section>
+
+  </main>
+  
+<div class="download-container">
+  <button id="download-btn">
+    <i class="fas fa-download"></i>
+    <span>Documentación extendida</span>
+  </button>
+</div>
+
+  <footer>
+    <p>2025 Centro de Poder | ProgramyXAU </p>
+    <button id="toggle-dark"><i class="fas fa-moon"></i></button>
+  </footer>
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js"></script>
+<script>
+  // Inicializar Lenis
+  const lenis = new Lenis({
+    duration: 1.3,
+    easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+    smooth: true
+  });
+
+  // Para que Lenis actualice ScrollTrigger (de GSAP)
+  lenis.on('scroll', ScrollTrigger.update);
+
+  // Loop de animación (usa GSAP como loop driver)
+  gsap.ticker.add((time) => {
+    lenis.raf(time * 1000);
+  });
+  gsap.ticker.lagSmoothing(0);
+</script>
+</body>
+</html>
