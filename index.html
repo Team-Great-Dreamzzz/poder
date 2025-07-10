@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Centro de Control - PXAU</title><link id="favicon" rel="icon" type="image/png" href="assets/icons8-power-48.png">
+  <title>Centro de Control - PX</title><link id="favicon" rel="icon" type="image/png" href="assets/icons8-power-48.png">
   <link rel="stylesheet" href="style.css" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 
 </head>
 <body>
   <header class="hero">
   <div class="hero-content">
-    <h1>Centro de Poder ProgramyXAU</h1>
-    <p>Explora tutoriales, FAQ detallado, recursos y documentación sobre PXAU.</p>
+    <h1>Centro de Poder ProgramyXㅤ<i class="fa-solid fa-check"></i></h1>
+    <p>Explora tutoriales, FAQ detallado, recursos y documentación sobre PX.</p>
     <button onclick="scrollToContent(event)">Ver Más</button>
   </div><div class="gato-track" id="gatoTrack"></div>
 
@@ -24,13 +24,27 @@
       <img draggable="false" src="assets/quees.png" alt="Ejemplo funcionalidad" />
     </section>
 
-    <section class="video-section">
-      <h2>Guía en Video</h2>
-      <video controls>
-        <source src="assets/ejemplo.mp4" type="video/mp4" />
-        Tu navegador no soporta el video HTML5.
-      </video>
-    </section>
+<section class="gallery-section">
+  <h2>Galería de Imágenes</h2>
+  <div class="carousel-visor">
+    <button class="carousel-btn left"><i class="fas fa-chevron-left"></i></button>
+    <div class="carousel-track-visor">
+      <div class="carousel-visor-list">
+        <img src="assets/gallery1.jpg" />
+        <img src="assets/gallery2.jpg" />
+        <img src="assets/gallery3.jpg" />
+        <img src="assets/gallery4.jpg" />
+        <img src="assets/gallery7.jpg" />
+        <img src="assets/gallery5.jpg" />
+        <img src="assets/gallery6.jpg" />
+        <img src="assets/gallery8.jpg" />
+        <img src="assets/gallery9.jpg" />
+        <img src="assets/gallery10.jpg" />
+      </div>
+    </div>
+    <button class="carousel-btn right"><i class="fas fa-chevron-right"></i></button>
+  </div>
+</section>
 
     <section class="faq-section">
   <h2>Preguntas Frecuentes</h2>
@@ -138,7 +152,7 @@ Pero si no aparece ningún dato de contacto, ¡no te preocupes! Puedes dejarle u
 
     <section class="info-section funciones-section">
   <div class="scroll-top">
-    <h2>Funciones Principales de ProgramyX AU</h2>
+    <h2>Funciones Principales de ProgramyX</h2>
     <p style="margin-bottom: 1rem;">
       <strong>ProgramyX AU</strong> es una plataforma pensada para estudiantes, creadores y equipos de trabajo que desean compartir, explorar y mejorar proyectos académicos o personales. Aquí puedes colaborar, inspirarte y formar parte de una comunidad activa. Estas son sus funciones principales:
     </p>
@@ -172,7 +186,7 @@ Pero si no aparece ningún dato de contacto, ¡no te preocupes! Puedes dejarle u
     </ul>
 
     <p>
-      Usa ProgramyX AU con creatividad y responsabilidad. Cada usuario hace que esta comunidad sea mejor 🌟
+      Usa ProgramyX con creatividad y responsabilidad. Cada usuario hace que esta comunidad sea mejor 🌟
     </p>
   </div>
 </section>
@@ -199,7 +213,7 @@ La idea es formar una comunidad chida, donde todos se apoyen, compartan lo que s
   </ul>
 
   <p>
-    Nuestro objetivo final es convertir a ProgramyX AU en la mejor red de proyectos estudiantiles hecha por estudiantes y para estudiantes ;D
+    Nuestro objetivo final es convertir a ProgramyX en la mejor red de proyectos estudiantiles hecha por estudiantes y para estudiantes ;D
   </p>
 </section>
 
@@ -213,7 +227,7 @@ La idea es formar una comunidad chida, donde todos se apoyen, compartan lo que s
 </div>
 
   <footer>
-    <p>2025 Centro de Poder | ProgramyXAU </p>
+    <p>2025 Centro de Poder | ProgramyX </p>
     <button id="toggle-dark"><i class="fas fa-moon"></i></button>
   </footer>
   <script src="script.js"></script>
@@ -237,5 +251,12 @@ La idea es formar una comunidad chida, donde todos se apoyen, compartan lo que s
   });
   gsap.ticker.lagSmoothing(0);
 </script>
+<a href="https://programyxau.onrender.com/" class="floating-btn">
+  <i class="fas fa-arrow-left"></i>
+  <span>Volver a ProgramyX</span>
+</a>
+<div class="desktop-gif">
+  <img src="assets/gif-decorativo.gif" alt="Decoración" draggable="false">
+</div>
 </body>
 </html>
